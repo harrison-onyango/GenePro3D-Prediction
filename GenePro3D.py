@@ -102,8 +102,8 @@ with st.sidebar:
     st.subheader("GenePro3D")
     st.markdown("This is a sequence translator and 3D protein structure predictor. It transcribes DNA sequences and translates the resulting mRNA sequences into protein sequences before predicting the 3D structure of the protein. Its protein 3D structure prediction is based on the [ESM](https://esmatlas.com/about)-2 language model. For additional information, read [news article](https://www.nature.com/articles/d41586-022-03539-1) and [research article](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2).")
 
-# Add 15 blank lines using HTML <br>
-    for _ in range(15):
+# Add 10 blank lines using HTML <br>
+    for _ in range(10):
         st.write("<br>", unsafe_allow_html=True)
     
     st.subheader("Creators")
